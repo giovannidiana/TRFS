@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for t in 15 20 25
+	do
+	for f in sb 27 67 68 29 110
+	do
+		./gen $t $f $1 & 
+	done
+done
+
